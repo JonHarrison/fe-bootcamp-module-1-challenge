@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* header tag */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,6 +16,7 @@ body {
     color: #ffffff;
 }
 
+/* h1 header tag */
 .header h1 {
     display: inline-block;
     font-size: 48px;
@@ -38,14 +40,17 @@ body {
 
 .header div ul li {
     display: inline-block;
+    /* Put a 25-pixel margin at the left of all list elements */
     margin-left: 25px;
 }
 
+/* all a tags */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* all p tags */
 p {
     font-size: 16px;
 }
@@ -75,6 +80,7 @@ p {
     margin-left: 20px;
 }
 
+/* benefits tag */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,6 +92,7 @@ p {
     background-color: #2589bd;
 }
 
+/* all benefit- tags */
 .benefit-lead,
 .benefit-brand,
 .benefit-cost {
@@ -93,6 +100,7 @@ p {
     color: #ffffff;
 }
 
+/* all benefit- h3 header tags */
 .benefit-lead h3,
 .benefit-brand h3,
 .benefit-cost h3 {
@@ -100,11 +108,14 @@ p {
     text-align: center;
 }
 
+/* all benefit- img tags */
 .benefit-lead img,
 .benefit-brand img,
 .benefit-cost img {
+    /* Block display */
     display: block;
     margin: 10px auto;
+    /* limit image to a maximum width of 150 pixels */
     max-width: 150px;
 }
 
@@ -122,12 +133,14 @@ p {
 .search-engine-optimization img,
 .online-reputation-management img,
 .social-media-marketing img {
+    /* limit image to a maximum height of 200 pixels */
     max-height: 200px;
 }
 
 .search-engine-optimization h2,
 .online-reputation-management h2,
 .social-media-marketing h2 {
+    /* Put a 20-pixel margin under the header */
     margin-bottom: 20px;
     font-size: 36px;
 }
