@@ -1,4 +1,6 @@
-/* root */
+/* 
+   root
+*/
 
 /* style for all elements */
 * {
@@ -23,7 +25,9 @@ p {
     font-size: 16px;
 }
 
-/* header */
+/*
+   header
+*/
 
 /* style for header class elements */
 .header {
@@ -33,18 +37,20 @@ p {
     color: #ffffff;
 }
 
-/* style for all header class h1 elements */
+/* style for all header class h1 heading elements */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-/* style for all seo class elements contained within an h1 style within the header class */
+/* style for all seo class elements contained within an h1 heading within the header class */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
-/* navigation */
+/*
+   navigation
+*/
 
 /* style for all header class nav elements */
 .header nav {
@@ -68,9 +74,15 @@ p {
     margin-left: 25px;
 }
 
-/* main */
+/*
+   main
+*/
 
-/* the hero class styles the background image of the marketing meeting */
+/*
+    figure
+*/
+
+/* the figure hero class styles the background image of the digital marketing meeting image banner */
 .hero {
     height: 800px;
     width: 100%;
@@ -78,6 +90,37 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+}
+
+/*
+    content section
+*/
+
+/* style for all content class elements */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* styles common to all article class elements */
+.search-engine-optimization,
+.online-reputation-management,
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* styles common to all article class img elements */
+.search-engine-optimization img,
+.online-reputation-management img,
+.social-media-marketing img {
+    /* limit image to a maximum height of 200 pixels */
+    max-height: 200px;
 }
 
 /* the float-left class styles images on the left */
@@ -92,14 +135,18 @@ p {
     margin-left: 25px;
 }
 
-/* articles */
-
-/* style for all content class elements */
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
+/* styles common to all article class h2 heading elements */
+.search-engine-optimization h2,
+.online-reputation-management h2,
+.social-media-marketing h2 {
+    /* Put a 20-pixel margin under the header */
+    margin-bottom: 20px;
+    font-size: 36px;
 }
+
+/*
+    benefits aside
+*/
 
 /* style for all benefits class elements */
 .benefits {
@@ -121,7 +168,7 @@ p {
     color: #ffffff;
 }
 
-/* styles common to all benefit-... class h3 header elements */
+/* styles common to all benefit-... class h3 heading elements */
 .benefit-lead h3,
 .benefit-brand h3,
 .benefit-cost h3 {
@@ -140,38 +187,9 @@ p {
     max-width: 150px;
 }
 
-/* aside */
-
-/* styles common to all class elements */
-.search-engine-optimization,
-.online-reputation-management,
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* styles common to all class img elements */
-.search-engine-optimization img,
-.online-reputation-management img,
-.social-media-marketing img {
-    /* limit image to a maximum height of 200 pixels */
-    max-height: 200px;
-}
-
-/* styles common to all class h2 elements */
-.search-engine-optimization h2,
-.online-reputation-management h2,
-.social-media-marketing h2 {
-    /* Put a 20-pixel margin under the header */
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/* footer */
+/*
+   footer
+*/
 
 /* style for footer class element */
 .footer {
@@ -181,7 +199,7 @@ p {
     text-align: center;
 }
 
-/* style for footer class h2 elements */
+/* style for footer class h2 heading elements */
 .footer h2 {
     font-size: 20px;
 }
