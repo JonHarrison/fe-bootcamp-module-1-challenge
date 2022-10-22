@@ -8,6 +8,17 @@ body {
     background-color: #d9dcd6;
 }
 
+/* all anchor element tags */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* all paragraph element tags */
+p {
+    font-size: 16px;
+}
+
 /* header tag */
 .header {
     padding: 20px;
@@ -44,16 +55,6 @@ body {
     margin-left: 25px;
 }
 
-/* all a tags */
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-/* all p tags */
-p {
-    font-size: 16px;
-}
 
 .hero {
     height: 800px;
