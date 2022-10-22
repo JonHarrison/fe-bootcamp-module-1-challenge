@@ -49,7 +49,7 @@ Your website must meet accessibility standards. You can achieve this completing 
 
 ## Links
 
-* [Link to the deployed website]((https://jonharrison.github.io/horiseon-website-refactor/)
+* [Link to the deployed website](https://jonharrison.github.io/horiseon-website-refactor/)
 * [Link to the code repository](https://github.com/JonHarrison/horiseon-website-refactor)
 
 ## Contact
