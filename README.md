@@ -29,7 +29,8 @@ Your website must meet accessibility standards. You can achieve this completing 
 * Commented html and css to aid readability and future development
 * Add search engine optimisation metadata
 * Added script to ensure copyright is always displayed with the current year
-* re-ordered css to match layout
+* Re-ordered css to match layout
+* Verified accessibility with chrome screen reader extension (https://chrome.google.com/webstore/detail/screen-reader)
 
 ## Challenges / Things I learnt
 
