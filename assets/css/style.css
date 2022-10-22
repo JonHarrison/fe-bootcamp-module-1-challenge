@@ -1,25 +1,31 @@
+/* root */
+
+/* style for all elements */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* style body element */
 body {
     background-color: #d9dcd6;
 }
 
-/* all anchor element tags */
+/* style all anchor elements */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
-/* all paragraph element tags */
+/* style all paragraph elements */
 p {
     font-size: 16px;
 }
 
-/* header tag */
+/* header */
+
+/* style for header class elements */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -27,17 +33,21 @@ p {
     color: #ffffff;
 }
 
-/* h1 header tag */
+/* style for all header class h1 elements */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* style for all seo class elements contained within an h1 style within the header class */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
-.header div {
+/* navigation */
+
+/* style for all header class nav elements */
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -45,17 +55,22 @@ p {
     font-size: 20px;
 }
 
-.header div ul {
+/* style for all header class nav unordered list elements */
+.header nav ul {
+    /* no marker is shown in the unordered list */
     list-style-type: none;
 }
 
-.header div ul li {
+/* style for all header class nav unordered list list item elements */
+.header nav ul li {
     display: inline-block;
     /* Put a 25-pixel margin at the left of all list elements */
     margin-left: 25px;
 }
 
+/* main */
 
+/* the hero class styles the background image of the marketing meeting */
 .hero {
     height: 800px;
     width: 100%;
@@ -65,23 +80,28 @@ p {
     background-position: center;
 }
 
+/* the float-left class styles images on the left */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* the float-right class styles images on the right */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* articles */
+
+/* style for all content class elements */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/* benefits tag */
+/* style for all benefits class elements */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -93,7 +113,7 @@ p {
     background-color: #2589bd;
 }
 
-/* all benefit- tags */
+/* styles common to all benefit-... class elements */
 .benefit-lead,
 .benefit-brand,
 .benefit-cost {
@@ -101,7 +121,7 @@ p {
     color: #ffffff;
 }
 
-/* all benefit- h3 header tags */
+/* styles common to all benefit-... class h3 header elements */
 .benefit-lead h3,
 .benefit-brand h3,
 .benefit-cost h3 {
@@ -109,7 +129,7 @@ p {
     text-align: center;
 }
 
-/* all benefit- img tags */
+/* styles common to all benefit-... class img elements */
 .benefit-lead img,
 .benefit-brand img,
 .benefit-cost img {
@@ -120,6 +140,9 @@ p {
     max-width: 150px;
 }
 
+/* aside */
+
+/* styles common to all class elements */
 .search-engine-optimization,
 .online-reputation-management,
 .social-media-marketing {
@@ -131,6 +154,7 @@ p {
     color: #ffffff;
 }
 
+/* styles common to all class img elements */
 .search-engine-optimization img,
 .online-reputation-management img,
 .social-media-marketing img {
@@ -138,6 +162,7 @@ p {
     max-height: 200px;
 }
 
+/* styles common to all class h2 elements */
 .search-engine-optimization h2,
 .online-reputation-management h2,
 .social-media-marketing h2 {
@@ -146,6 +171,9 @@ p {
     font-size: 36px;
 }
 
+/* footer */
+
+/* style for footer class element */
 .footer {
     padding: 30px;
     clear: both;
@@ -153,6 +181,7 @@ p {
     text-align: center;
 }
 
+/* style for footer class h2 elements */
 .footer h2 {
     font-size: 20px;
 }
