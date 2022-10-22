@@ -38,6 +38,10 @@ Your website must meet accessibility standards. You can achieve this completing 
 * Metadata tags for seo optimisation
 * Scripting for updating copyright for current year
 
+## Website image
+
+![Website image](https://user-images.githubusercontent.com/1043077/197360168-7bc14f2f-dca4-4775-95b1-5f21f0708627.png)
+
 ## Technologies Used
 
 - HTML
