@@ -6,9 +6,9 @@ The Horiseon marketing agency is looking to improve the accessibility of their w
 
 ## User Story
 
-AS A marketing agency
-I WANT a codebase that follows accessibility standards
-SO THAT our own site is optimized for search engines
+AS A marketing agency<br>
+I WANT a codebase that follows accessibility standards<br>
+SO THAT our own site is optimized for search engines<br>
 
 ## Acceptance Criteria
 
@@ -30,6 +30,7 @@ Your website must meet accessibility standards. You can achieve this completing 
 * Add search engine optimisation metadata
 * Added script to ensure copyright is always displayed with the current year
 * Re-ordered css to match layout
+* Switched language to en-US due to spelling of optimization
 * Verified accessibility with the chrome [screen reader extension](https://chrome.google.com/webstore/detail/screen-reader/kgejglhpjiefppelpmljglcjbhoiplfn)
 
 ## Challenges / Things I learnt
